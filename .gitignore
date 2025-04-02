@@ -1,0 +1,15 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
