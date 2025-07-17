@@ -1,15 +1,28 @@
-# Python
-*.py[cod]
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.so
-*.egg-info/
-.env
+*.py[cod]
 
-# Jupyter Notebooks
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Logs
-*.log
+# Environment files
+.env
+.venv/
+env/
+venv/
 
-# macOS
+# Mac & Windows system files
 .DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# VS Code settings
+.vscode/
+
+# Data
+*.csv
+
