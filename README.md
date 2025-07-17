@@ -27,5 +27,3 @@ This project identifies and filters spam messages using machine learning by anal
 ## Contributing
 Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details
