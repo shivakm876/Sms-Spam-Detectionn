@@ -1,29 +1,58 @@
-# Sms-Spam-Detectionn
+# 📧 Spam Message Detection – Machine Learning Project
 
-## Overview
-This project identifies and filters spam messages using machine learning by analyzing SMS content. It involves data collection, preprocessing (lemmatization, TF-IDF vectorization, Bag of Words, etc.), and model training.
+This project builds a supervised machine learning pipeline to detect spam messages using classic NLP techniques and classification algorithms. It classifies SMS text messages as either "spam" or "ham" (not spam) based on learned patterns from labeled data.
 
-## Setup
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/shivakm876/Sms-Spam-Detectionn.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd Sms-Spam-Detectionn
-    ```
-3. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
+---
 
-## Usage
-1. Run the Jupyter notebook:
-    ```sh
-    jupyter notebook
-    ```
-2. Open `sms_spam_detection.ipynb` and run the cells to train and evaluate the model.
+## 🔍 Problem Statement
 
-## Contributing
-Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests.
+With the rise in SMS-based phishing and unwanted communication, building a reliable spam detection system is essential. This project leverages machine learning to analyze message content and classify them accurately without relying on hand-crafted rules.
 
+---
+
+## 🧠 Tech Stack
+
+- **Language:** Python  
+- **NLP & Data Processing:** `nltk`, `pandas`, `numpy`  
+- **Vectorization:** TF-IDF from `scikit-learn`  
+- **Machine Learning Models:**  
+  - Logistic Regression  
+  - k-Nearest Neighbors (k-NN)  
+  - Random Forest  
+- **Visualization & Evaluation:** `matplotlib`, `seaborn`
+
+---
+
+## 📂 Project Structure
+
+spam-detection/
+├── ML_Project_final.ipynb # Full pipeline in Jupyter/Colab
+├── spam.csv # Dataset (optional)
+├── README.md # Project overview and documentation
+├── .gitignore # Clean version control exclusions
+
+
+## 🛠️ Key Highlights
+
+- Cleaned and preprocessed SMS text using `nltk`  
+- Extracted features using **TF-IDF** vectorization  
+- Trained and compared multiple classifiers (LogReg, k-NN, Random Forest)  
+- Evaluated models with **F1-score**, confusion matrix, and classification reports  
+- Achieved **96% F1-score** with Logistic Regression on the test set
+
+---
+
+## 📊 Results
+
+- ✅ **96% F1-score** on real-world SMS spam dataset  
+- 🔍 Visualized model performance using confusion matrix & reports  
+- 📈 Reliable prediction with low false positives
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/yourusername/spam-detection.git
+   cd spam-detection
