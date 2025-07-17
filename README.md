@@ -47,6 +47,7 @@ spam-detection/
 - ✅ **96% F1-score** on real-world SMS spam dataset  
 - 🔍 Visualized model performance using confusion matrix & reports  
 - 📈 Reliable prediction with low false positives
+- 🚀 Among all models tested, Naive Bayes achieved the highest performance, reaching a 96% F1-score on the test set, outperforming Logistic Regression, k-NN, and Random Forest.
 
 ---
 
