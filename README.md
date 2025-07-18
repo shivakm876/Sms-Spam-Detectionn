@@ -57,3 +57,5 @@ spam-detection/
    ```bash
    git clone https://github.com/yourusername/spam-detection.git
    cd spam-detection
+   📝 License
+This project is licensed under the MIT License.
